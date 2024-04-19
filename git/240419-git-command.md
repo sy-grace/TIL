@@ -1,6 +1,8 @@
 ## pwd: print working directory
 
-> pwd 
+```shell
+pwd 
+```
 
 ## ls: list
 * -a : 숨긴 파일까지 보기
@@ -10,17 +12,40 @@
 ## cd: change directory
 
 ## mv: move
-> mv ../*.py ./ : 상위 디렉토리의 모든 py파일을 현재 디렉토리로 이동
-> mv LICENSE ./license.txt : 파일 이름 변경
+
+```shell
+mv ../*.py ./
+```
+
+상위 디렉토리의 모든 py파일을 현재 디렉토리로 이동
+
+```shell
+mv LICENSE ./license.txt
+```
+
+파일 이름 변경
 
 ## cp: copy
-> cp main.py ./main_copy.py : 같은 위치에 똑같은 파일을 복사할 수는 없다. 이름을 바꿔야함
+
+```shell cp main.py ./main_copy.py
+```
+
+같은 위치에 똑같은 파일을 복사할 수는 없다. 이름을 바꿔야함
 
 ## rm: remove
-> rm -rf dest : 디렉토리 강제 삭제
+
+```shell
+rm -rf dest
+```
+
+디렉토리 강제 삭제
 
 ## vi: vim 사용
-> vi hello.md
+
+```shell
+vi hello.md
+```
+
 * : set nu : line number on/off
 * i : insert mode
 * :wq : 저장 후 나오기
