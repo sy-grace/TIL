@@ -27,7 +27,8 @@ mv LICENSE ./license.txt
 
 ## cp: copy
 
-```shell cp main.py ./main_copy.py
+```shell
+cp main.py ./main_copy.py
 ```
 
 같은 위치에 똑같은 파일을 복사할 수는 없다. 이름을 바꿔야함
